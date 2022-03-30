@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.push{
+    display: inline-block;
+    background-color: aqua;
+    color: #000;
+    text-decoration: none;
+    padding-left: 26px;
+    line-height: 64px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.push:after{
+    content: '>';
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background-color: #0abbbb;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    margin-left: 26px;
+}
